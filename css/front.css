@@ -74,7 +74,8 @@ a {
     display: none;
 }
 
-@media (max-width: 499px) {
+/*499px 5 icons, 549px 6 icons*/
+@media (max-width: 549px) {
 ul {
     text-align: center;
 }
