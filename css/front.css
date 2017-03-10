@@ -37,12 +37,18 @@ h3 {
     padding-bottom: 20px;
     font-weight: thin;
 }
+
 .content {
     padding-top: 100px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
+.icons {
+    display: inline;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -74,10 +80,19 @@ a {
     display: none;
 }
 
-/*499px 5 icons, 549px 6 icons*/
-@media (max-width: 549px) {
+@media (max-width: 550px) {
+    .icons {
+    display: block;
+}
+h1{
+    font-size: 2.5em;
+}
+}
+
+@media (max-width:360px){
 ul {
     text-align: center;
+    font-size: 0.8em;
 }
 li {
     border-radius: 0%;
